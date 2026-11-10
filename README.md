@@ -120,8 +120,8 @@ armed. Replaying that step was the whole ballgame.
 Info from these write‑ups helped me work out the fix (the gen‑mode "arm" step
 and the SAK‑swap behaviour):
 
-- <https://gist.github.com/rickdoesburg/344a21b72623d5b47059ae6bdcff2122>
-- <https://gist.github.com/equipter/3022aea4e371e585ff6e46de637e7769>
+- Cloning a 7-byte UID MFC (Mifare Classic) 1k card and more - <https://gist.github.com/rickdoesburg/344a21b72623d5b47059ae6bdcff2122>
+- Mifare Classic - SAK Swapping Explained - <https://gist.github.com/equipter/3022aea4e371e585ff6e46de637e7769>
 
 Other references:
 
