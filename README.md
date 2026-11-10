@@ -26,8 +26,9 @@ binary, just one script you can read.
 
 - An **ACR122U** (PN532‑based) PC/SC reader.
 - Python 3 + [`pyscard`](https://pyscard.sourceforge.io/): `pip install pyscard`
-- A 7‑byte UID magic (USCUID/GDM) card. **This will not work on normal cards or
-  on plain Gen1a/Gen2 "magic" cards.**
+- A 7‑byte UID magic (USCUID/GDM) **1K** card. **This will not work on normal
+  cards, on plain Gen1a/Gen2 "magic" cards, or on 4K cards** (the SAK is
+  hardcoded for 1K).
 - Windows, macOS or Linux (developed on Windows with the stock ACR122U driver).
 
 ## Usage
