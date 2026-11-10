@@ -117,6 +117,14 @@ armed. Replaying that step was the whole ballgame.
 
 ## Credits / references
 
+Info from these write‑ups helped me work out the fix (the gen‑mode "arm" step
+and the SAK‑swap behaviour):
+
+- <https://gist.github.com/rickdoesburg/344a21b72623d5b47059ae6bdcff2122>
+- <https://gist.github.com/equipter/3022aea4e371e585ff6e46de637e7769>
+
+Other references:
+
 - APDUPlay — <https://github.com/petrs/APDUPlay>
 - Magic‑card background (USCUID / GDM, SAK swap / "Double Cross") — the
   RfidResearchGroup Proxmark3 `magic_cards_notes.md`.
