@@ -4,7 +4,7 @@ fobtool.py - read and write a 7-byte UID magic MIFARE Classic card/fob
 (USCUID/GDM-class) through an ACR122U. Reverse-engineered, byte-for-byte,
 from a gap-free APDUPlay capture of the vendor "S50 7Byte UID Tool".
 
-See NOTES.md for the full story. In short, "write" is a FOUR-phase session,
+See the README for the full story. In short, "write" is a FOUR-phase session,
 each phase its own fresh EXCLUSIVE connection, all via ACR122U Direct Transmit
 (FF 00 00 00 Lc <PN532 frame>):
 
